@@ -1,0 +1,14 @@
+.Theater_Posters{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+}
+.Poster_size{
+    width: 288px;
+    height: 432px;  
+}
+
+body{
+    background-color: red;
+    outline-color: black;
+}
