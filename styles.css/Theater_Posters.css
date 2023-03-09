@@ -1,14 +1,23 @@
 .Theater_Posters{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
 .Poster_size{
     width: 288px;
     height: 432px;  
 }
+.arrow{
+   font-size: 100px; 
+   z-index: 1;
+   color: white;
+}
 
-body{
-    background-color: red;
-    outline-color: black;
+body {
+        background-image: url("../images/AMC Megaplex.jpg");
+      }
+
+
+.text{
+    color: white;
 }
