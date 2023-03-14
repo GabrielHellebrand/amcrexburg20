@@ -1,6 +1,6 @@
 .Theater_Posters{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    
 }
 .Poster_size{
@@ -13,11 +13,19 @@
    color: white;
 }
 
-body {
+.ticket {
         background-image: url("../images/AMC Megaplex.jpg");
       }
 
-
+.snack {
+    background-image: url("../images/AMCPerfectlyPopcorn.jpg");
+}
 .text{
     color: white;
+}
+header{
+    background-color: grey;
+}
+footer{
+    background-color: grey;
 }
