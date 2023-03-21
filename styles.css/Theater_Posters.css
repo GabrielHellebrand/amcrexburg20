@@ -1,31 +1,88 @@
-.Theater_Posters{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   
+.Theater_Posters {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  bottom: 100;
+  right: 100;
 }
-.Poster_size{
-    width: 288px;
-    height: 432px;  
+
+.Poster_size {
+  width: 288px;
+  height: 432px;
 }
-.arrow{
-   font-size: 100px; 
-   z-index: 1;
-   color: white;
+
+.ticket_size,
+.snack_size,
+.home_size {
+  width: 3840px;
+  height: 2160px;
+}
+
+.arrow {
+  font-size: 100px;
+  z-index: 1;
+  color: white;
 }
 
 .ticket {
-        background-image: url("../images/AMC Megaplex.jpg");
-      }
+  background-image: url("../images/Showtimes.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1980px;
+  height: 1080px;
+  z-index: 1;
+  
+  
+
+}
 
 .snack {
-    background-image: url("../images/AMCPerfectlyPopcorn.jpg");
+  background-image: url("../images/AMCPerfectlyPopcorn.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1980px;
+  height: 1080px;
 }
-.text{
-    color: white;
+.background {
+  background-image: url("../images/AMC Megaplex.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 1980px;
+  height: 1080px;
 }
-header{
-    background-color: grey;
+.home {
+  background-image: url("../images/AMC Megaplex.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  width: 1980px;
+  height: 1080px;
 }
-footer{
-    background-color: grey;
+.ticket_text
+{
+
+  color: white;
+  width: 30%;
+  font-size: large;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  /* z-index : 1; */
+  grid-template-columns: 3/4;
+  grid-row: 6/10;
+}
+.text {
+  bottom: 100;
+  right: 100;
+  color: white;
+  width: 20%; /* adjust the width to your preference */
+  font-size: large;
+    
+  }
+
+header {
+  background-color: grey;
+}
+
+footer {
+  background-color: grey;
+  margin-top: 51%;
 }
